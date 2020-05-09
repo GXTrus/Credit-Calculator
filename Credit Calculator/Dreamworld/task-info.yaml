@@ -94,6 +94,22 @@ files:
     if __name__ == '__main__':
         CreditCalcTest('creditcalc.creditcalc').run_tests()
   learner_created: false
+- name: creditcalc/creditcalc.py
+  visible: true
+  text: |
+    credit_principal = 'Credit principal: 1000'
+    final_output = 'The credit has been repaid!'
+    first_month = 'Month 1: paid out 250'
+    second_month = 'Month 2: paid out 250'
+    third_month = 'Month 3: paid out 500'
+
+    # write your code here
+    print(credit_principal)
+    print(first_month)
+    print(second_month)
+    print(third_month)
+    print(final_output)
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/90/stages/501/implement
-status: Unchecked
+status: Solved
 record: -1
